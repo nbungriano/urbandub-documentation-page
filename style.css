@@ -1,0 +1,121 @@
+html, body {
+    margin: auto;
+    margin-top: 30px;
+    top: 0;
+    left: 0;
+    scroll-behavior: smooth;
+}
+
+#topic{
+    font-size: 28px;
+    color: whitesmoke;
+    padding: 6px 8px 6px 16px;
+    color: tomato;
+}
+
+#navbar {
+    height: 100%;
+    width: 308px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(63, 63, 63);
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  #navbar a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffb5b5;
+    display: block;
+    line-height: 40px;
+  }
+  
+  #navbar a:hover {
+    color: #f1f1f1;
+    background: black;
+    transition: 0.8s;
+    padding: 20px;
+  }
+  
+  #main-doc {
+    margin-left: 326px; 
+    margin-right:80px;
+    font-size: 18px; 
+    padding: 0px 10px;
+  }
+  
+  @media screen and (max-width: 600px) {
+    #navbar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    #navbar a {
+        float: left;
+        margin-left: 0;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    #navbar a {
+      text-align: center;
+      float: none;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+      #main-doc{
+          margin:0;
+      }
+  }
+
+
+  .header   {
+      font-size: 40px;
+      font-weight: bold;
+      color: rgb(0, 0, 0);
+  }
+
+  p {
+    color: rgb(85, 85, 85);
+    text-align: justify;
+  }
+
+  #HTML_Page_Structure {
+      text-align: center;
+  }
+
+  #HTML_Page_Structure p {
+      text-align: center;
+  }
+
+  .img-structure {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    margin-bottom: 40px;
+  }
+
+    #Learn_HTML {
+    margin-top: 5%;
+    margin-bottom: 10%;
+    text-align: center;
+  }
+
+ #Learn_HTML a {
+    text-decoration: none;
+    color: rgb(90, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+#Learn_HTML a:hover {
+    color: teal;
+    transition: 0.8s;
+}
